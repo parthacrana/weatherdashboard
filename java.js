@@ -90,7 +90,7 @@ function displayResults(){
             weather = "🌧"
         }
 
-        // String manipulation to get the date from the api
+        //                                                                                      get date from api network
         title1.textContent= `${city}(${data.list[0].dt_txt.slice(0, 10)}) ${weather}`;
         const description = document.createElement('h4');
 
@@ -121,7 +121,7 @@ function displayResults(){
             weather = "🌧"
         }
 
-          // Card stylized according to BootStrap 5
+          // Card incorporates  BootStrap -- no css required
           row2.innerHTML+=`
           <div class= "col">
           <div class="card" data-bs-theme="dark">
@@ -134,10 +134,10 @@ function displayResults(){
         `
         }
 
-        // Append the rows to the parent element in order to display the results
+        //                                                  display results combining results with above element
         resultBody.appendChild(row1);
         resultBody.appendChild(row2);
-        // Update prevCities
+        //                                                          Update previous cities (prevCities)
         displayPrevCities();
 
       }
