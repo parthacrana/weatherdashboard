@@ -94,7 +94,7 @@ function displayResults(){
         title1.textContent= `${city}(${data.list[0].dt_txt.slice(0, 10)}) ${weather}`;
         const description = document.createElement('h4');
 
-        // Stylized using Bootstrap 5
+        //                                                                incorporating  Bootstrap styling methods 
         description.setAttribute('class', 'mx-3 my-5 lh-lg');
         description.setAttribute('style', 'white-space: pre;')
         description.textContent = `Temp: ${data.list[0].main.temp}°F\n`;
@@ -148,10 +148,9 @@ function displayResults(){
 }
 
 function displayPrevCities(){
-          //Create previous cities list
+          // previous cities list 
           const prevCitiesItems = JSON.parse(localStorage.getItem('prevCities'));
           let listItem;
-          //Make sure past cities list is reverted to an empty html element to avoid duplication
           prevCitiesList.innerHTML = "";
           for(prevCity of prevCitiesItems){
             listItem = document.createElement('li');
@@ -163,7 +162,7 @@ function displayPrevCities(){
 }
 
 
-// Attaches Event Listeners
+// add event listeners for user input 
 ulElement.addEventListener('click', handleListQuery);
 formElement.addEventListener('submit', handleFormQuery);
 
