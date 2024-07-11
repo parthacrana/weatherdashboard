@@ -4,7 +4,7 @@ CHALLENGE 6 Task board
 
 GITHUB REPO LINK -- https://github.com/parthacrana/weatherdashboard
 
-LINK TO DEPLOYED APPLICATION VIA PAGES -- 
+LINK TO DEPLOYED APPLICATION VIA PAGES -- https://parthacrana.github.io/weatherdashboard/
 
 
 
