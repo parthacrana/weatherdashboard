@@ -24,3 +24,9 @@ Still have to perfect fetch api urls and bootstrap mechanics.
 
 
 Feedback is appreciated! 
+
+![image](https://github.com/parthacrana/weatherdashboard/assets/122179383/0a0df740-e8ed-4342-a44a-cbd212f01f53)
+
+![image](https://github.com/parthacrana/weatherdashboard/assets/122179383/a431636c-9772-4ee2-ad5c-4415caa733ec)
+
+
